@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   line-height: 1.4;
+ 
+  }
+ 
+  ul {
+    list-style: none;
+  }
+  
+  header {
+    position: sticky;
+    margin: 10px;
+    background: plum;
+  }
+  .logo{
+    height: 65px;
+}
+  nav {
+    padding: 12px;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 22px;
+  }
+  
+  nav ul li {
+    font-size: 29px;
+  }
+  
+  nav i {
+    font-size: 20px;
+  }
+  nav ul li:hover {
+    border-bottom: purple 2px solid;
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+ 
+  
+  #cake {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container h1 {
+    font-size: 6rem;
+    line-height: 1.2;
+  }
+  .container h4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  
+  .cake_image img {
+    border-radius: 5px;
+    height:250px;
+  }
+  
+  
+  
+  .card1 {
+    display: flex;
+    margin: 12px 10px;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .image1{
+    height: 140px;
+    width: 150px;
+  }
+  .content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+  .status {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn {
+    all: unset;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+  }
+  .read-btn:hover {
+    border-bottom: 1px solid #ccc;
+  }
+  
+ 
+  
+  .v-card {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 320px;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 30px;
+   
+  }
+  
+  .card_container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  .card_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .v-card img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    height: 100px;
+    background-color: plum;
+  }
+  
+  footer ul {
+    display: flex;
+    gap: 24px;
+  }
+  footer ul li {
+    font-size: 19px;
+  }
+  
+  
+   
+  
+  
+  
